@@ -1,0 +1,29 @@
+{
+  "name": "vendor_name/Contact",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "raul",
+      "email": "raul.flores@mad.ec"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Madsis\\Contact\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Madsis\\Contact\\Providers\\SalesServiceProvider"
+      ],
+      "aliases": {
+        "Bouncer": "Madsis\\Contact\\Facades\\Bouncer"
+      }
+    }
+  }
+}

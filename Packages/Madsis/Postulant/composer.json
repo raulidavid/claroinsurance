@@ -1,0 +1,29 @@
+{
+  "name": "vendor_name/Postulant",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "raul",
+      "email": "raul.flores@mad.ec"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Madsis\\Postulant\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Madsis\\Postulant\\Providers\\SalesServiceProvider"
+      ],
+      "aliases": {
+        "Bouncer": "Madsis\\Postulant\\Facades\\Bouncer"
+      }
+    }
+  }
+}

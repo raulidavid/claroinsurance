@@ -1,0 +1,29 @@
+{
+  "name": "vendor_name/User",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "raul",
+      "email": "raul.flores@mad.ec"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Madsis\\User\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Madsis\\User\\Providers\\UserServiceProvider"
+      ],
+      "aliases": {
+        "Bouncer": "Madsis\\User\\Facades\\Bouncer"
+      }
+    }
+  }
+}

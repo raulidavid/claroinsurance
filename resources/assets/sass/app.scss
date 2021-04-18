@@ -1,0 +1,30 @@
+
+$fa-font-path: ("../fonts/font-awesome") !default;
+@import "~font-awesome/scss/font-awesome";
+@import "bootstrap.min.css";
+@import "~metismenu/dist/metisMenu.min.css";
+@import "~cropperjs/dist/cropper.min.css";
+/* Limit image width to avoid overflow the container */
+img {
+  max-width: 100%; /* This rule is very important, please do not ignore this! */
+}
+
+//Styles Jireh Raul Flores
+@import "style.css";
+@import "animate.css";
+@import "../css/plugins/iCheck/custom";
+@import "~datatables.net-bs/css/dataTables.bootstrap.min.css";
+//@import "~datatables.net-buttons-bs/css/buttons.bootstrap.min.css";
+//@import "~datatables.net-responsive-bs/css/responsive.bootstrap.css";
+@import "~toastr/build/toastr.min.css";
+@import "../css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css";
+@import "../css/plugins/jasny/jasny-bootstrap.min.css";
+@import "~jquery.steps/dist/jquery-steps.css";
+@import "~select2/src/scss/core";
+@import "~eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css";
+
+span.select2-container {
+  width: 100% !important;
+  padding: 0;
+}
+

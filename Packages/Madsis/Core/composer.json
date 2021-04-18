@@ -1,0 +1,25 @@
+{
+    "name": "bagisto/laravel-core",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@Madsis.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Madsis\\Core\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Madsis\\Core\\Providers\\CoreServiceProvider"
+            ],
+            "aliases": { }
+        }
+    },
+    "minimum-stability": "dev"
+}

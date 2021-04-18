@@ -1,0 +1,29 @@
+{
+  "name": "vendor_name/Alliances",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "raul",
+      "email": "raul.flores@mad.ec"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Madsis\\Alliances\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Madsis\\Alliances\\Providers\\SalesServiceProvider"
+      ],
+      "aliases": {
+        "Bouncer": "Madsis\\Alliances\\Facades\\Bouncer"
+      }
+    }
+  }
+}
